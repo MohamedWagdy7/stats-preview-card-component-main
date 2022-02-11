@@ -57,6 +57,7 @@ span{
     height: 100%;
     margin-right: -60px;    
     position: relative;
+    order: 2;
 }
 .img img{
     border-radius: 18px;
@@ -73,7 +74,6 @@ span{
     background-color: hsl(277, 64%, 61%);
     opacity: 75%;
     border-radius: 18px;
-    order: 2;
 }
 @media (width: 375px) {
     main{
