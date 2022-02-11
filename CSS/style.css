@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 6% auto 0 auto;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 18px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.main-p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.content p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.img{
+    width: 50%;
+    height: 100%;
+    margin-right: -60px;    
+    position: relative;
+}
+.img img{
+    border-radius: 18px;
+    width: 100%;
+    height: 103%;
+}
+.ab{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 75%;
+    border-radius: 18px;
+}
+@media (width: 375px) {
+    main{
+        text-align: center;
+        width: 80%;
+        height: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content div{
+        width: calc(100%/3);
+    }
+    .img{
+        width: 100%;
+        height: 25%;
+        align-self: flex-start;
+    }
+}
